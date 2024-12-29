@@ -200,7 +200,7 @@ class _MyWidgetState extends State<AddScreen> {
     return SizedBox(
       child: GooglePlaceAutoCompleteTextField(
           textEditingController: controller,
-          googleAPIKey:"AIzaSyAmxQPFrekAdvNEcsNypJYW1PQPEhcTPmc",
+          googleAPIKey:"API_KEY",
           inputDecoration: InputDecoration(
             hintText: "Search your location",
             border: InputBorder.none,
