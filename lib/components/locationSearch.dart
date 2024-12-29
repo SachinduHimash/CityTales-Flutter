@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: EdgeInsets.symmetric(horizontal: 20),
         child: GooglePlaceAutoCompleteTextField(
           textEditingController: controller,
-          googleAPIKey:"AIzaSyBS7vyfFibnUZye3oVPwzBaEL4lw7S5iaI",
+          googleAPIKey:"API_KEY",
           inputDecoration: InputDecoration(
             hintText: "Search your location",
             border: InputBorder.none,
