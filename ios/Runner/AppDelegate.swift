@@ -10,7 +10,7 @@ import GoogleMaps
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    GMSServices.provideAPIKey("AIzaSyBS7vyfFibnUZye3oVPwzBaEL4lw7S5iaI")
+    GMSServices.provideAPIKey("API_KEY")
     GeneratedPluginRegistrant.register(with: self)
     // let controller = window?.rootViewController as! FlutterViewController
     //     let arChannel = FlutterMethodChannel(name: "com.example.ar_channel", binaryMessenger: controller.binaryMessenger)
